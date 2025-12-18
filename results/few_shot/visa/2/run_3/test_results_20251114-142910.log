@@ -1,0 +1,31 @@
+2025-11-14 14:29:10,874 - INFO - [Logger] writing to ./results/few_shot/2/run_3/test_results_20251114-142910.log
+2025-11-14 14:29:10,875 - INFO - [Args] {'clip_download_dir': './download/clip/', 'data_dir': './data', 'dataset': 'mvtec', 'model': 'ViT-L/14@336px', 'batch_size': 8, 'img_size': 518, 'test_dataset': ['visa'], 'weight': './weight/best_maxf1_mvtec.pt', 'load_strict': False, 'device': 'cuda:0', 'prompt_len': 12, 'fewshot': 2, 'vis': 0, 'vis_dir': './vis', 'alpha': 0.1, 'memory_layers': [6, 12, 18, 24], 'adapter_layers': -1, 'result_dir': './results/few_shot/2/run_3', 'log_file': ''}
+2025-11-14 14:29:11,224 - INFO - --------------------------- visa ---------------------------
+2025-11-14 14:29:11,231 - INFO - candle, ['candle/Data/Images/Normal/0910.JPG', 'candle/Data/Images/Normal/0471.JPG']
+2025-11-14 14:33:02,651 - INFO - Category candle: Sample_CLS_AUROC: 91.180000 Sample_CLS_AP: 90.237603 Sample_CLS_max-F1: 85.714286 Pixel_AUROC: 99.367677 Pixel_AP: 28.266156 Pixel_max-F1: 41.081269 Pixel_PRO: 98.554622 
+2025-11-14 14:33:02,652 - INFO - capsules, ['capsules/Data/Images/Normal/139.JPG', 'capsules/Data/Images/Normal/180.JPG']
+2025-11-14 14:36:05,591 - INFO - Category capsules: Sample_CLS_AUROC: 95.133333 Sample_CLS_AP: 97.193097 Sample_CLS_max-F1: 90.731707 Pixel_AUROC: 98.394871 Pixel_AP: 43.714493 Pixel_max-F1: 48.016888 Pixel_PRO: 95.279433 
+2025-11-14 14:36:05,592 - INFO - cashew, ['cashew/Data/Images/Normal/027.JPG', 'cashew/Data/Images/Normal/116.JPG']
+2025-11-14 14:39:00,882 - INFO - Category cashew: Sample_CLS_AUROC: 93.200000 Sample_CLS_AP: 96.632063 Sample_CLS_max-F1: 90.909091 Pixel_AUROC: 97.876753 Pixel_AP: 58.563296 Pixel_max-F1: 61.292755 Pixel_PRO: 95.264875 
+2025-11-14 14:39:00,883 - INFO - chewinggum, ['chewinggum/Data/Images/Normal/292.JPG', 'chewinggum/Data/Images/Normal/222.JPG']
+2025-11-14 14:41:55,294 - INFO - Category chewinggum: Sample_CLS_AUROC: 97.080000 Sample_CLS_AP: 98.774211 Sample_CLS_max-F1: 95.384615 Pixel_AUROC: 99.650775 Pixel_AP: 80.300993 Pixel_max-F1: 72.914751 Pixel_PRO: 95.084827 
+2025-11-14 14:41:55,294 - INFO - fryum, ['fryum/Data/Images/Normal/215.JPG', 'fryum/Data/Images/Normal/343.JPG']
+2025-11-14 14:44:57,495 - INFO - Category fryum: Sample_CLS_AUROC: 98.520000 Sample_CLS_AP: 99.323366 Sample_CLS_max-F1: 95.652174 Pixel_AUROC: 96.532391 Pixel_AP: 38.693210 Pixel_max-F1: 45.706635 Pixel_PRO: 94.078766 
+2025-11-14 14:44:57,495 - INFO - macaroni1, ['macaroni1/Data/Images/Normal/0872.JPG', 'macaroni1/Data/Images/Normal/0943.JPG']
+2025-11-14 14:48:49,050 - INFO - Category macaroni1: Sample_CLS_AUROC: 89.400000 Sample_CLS_AP: 91.019095 Sample_CLS_max-F1: 82.178218 Pixel_AUROC: 99.637779 Pixel_AP: 20.894540 Pixel_max-F1: 29.625769 Pixel_PRO: 96.477974 
+2025-11-14 14:48:49,051 - INFO - macaroni2, ['macaroni2/Data/Images/Normal/0295.JPG', 'macaroni2/Data/Images/Normal/0549.JPG']
+2025-11-14 14:52:49,216 - INFO - Category macaroni2: Sample_CLS_AUROC: 73.510000 Sample_CLS_AP: 78.635917 Sample_CLS_max-F1: 70.355731 Pixel_AUROC: 98.077668 Pixel_AP: 10.616061 Pixel_max-F1: 21.003610 Pixel_PRO: 86.459660 
+2025-11-14 14:52:49,216 - INFO - pcb1, ['pcb1/Data/Images/Normal/0062.JPG', 'pcb1/Data/Images/Normal/0139.JPG']
+2025-11-14 14:56:41,248 - INFO - Category pcb1: Sample_CLS_AUROC: 90.970000 Sample_CLS_AP: 88.545765 Sample_CLS_max-F1: 87.111111 Pixel_AUROC: 98.795596 Pixel_AP: 49.190142 Pixel_max-F1: 50.597376 Pixel_PRO: 94.222416 
+2025-11-14 14:56:41,248 - INFO - pcb2, ['pcb2/Data/Images/Normal/0550.JPG', 'pcb2/Data/Images/Normal/0864.JPG']
+2025-11-14 15:00:32,292 - INFO - Category pcb2: Sample_CLS_AUROC: 86.090000 Sample_CLS_AP: 86.595093 Sample_CLS_max-F1: 80.402010 Pixel_AUROC: 96.655159 Pixel_AP: 22.604775 Pixel_max-F1: 32.276540 Pixel_PRO: 87.752423 
+2025-11-14 15:00:32,292 - INFO - pcb3, ['pcb3/Data/Images/Normal/0012.JPG', 'pcb3/Data/Images/Normal/0262.JPG']
+2025-11-14 15:04:24,982 - INFO - Category pcb3: Sample_CLS_AUROC: 83.415842 Sample_CLS_AP: 83.801978 Sample_CLS_max-F1: 78.378378 Pixel_AUROC: 95.524447 Pixel_AP: 42.895660 Pixel_max-F1: 49.848202 Pixel_PRO: 87.606244 
+2025-11-14 15:04:24,983 - INFO - pcb4, ['pcb4/Data/Images/Normal/0682.JPG', 'pcb4/Data/Images/Normal/0062.JPG']
+2025-11-14 15:08:21,123 - INFO - Category pcb4: Sample_CLS_AUROC: 98.574257 Sample_CLS_AP: 98.074430 Sample_CLS_max-F1: 96.153846 Pixel_AUROC: 97.661097 Pixel_AP: 28.358540 Pixel_max-F1: 36.195410 Pixel_PRO: 93.417192 
+2025-11-14 15:08:21,123 - INFO - pipe_fryum, ['pipe_fryum/Data/Images/Normal/443.JPG', 'pipe_fryum/Data/Images/Normal/153.JPG']
+2025-11-14 15:11:18,846 - INFO - Category pipe_fryum: Sample_CLS_AUROC: 98.940000 Sample_CLS_AP: 99.467068 Sample_CLS_max-F1: 96.618357 Pixel_AUROC: 98.416274 Pixel_AP: 42.920395 Pixel_max-F1: 52.728397 Pixel_PRO: 97.557269 
+2025-11-14 15:11:18,846 - INFO - Average: Sample_CLS_AUROC: 91.334453 Sample_CLS_AP: 92.358307 Sample_CLS_max-F1: 87.465794 Pixel_AUROC: 98.049207 Pixel_AP: 38.918189 Pixel_max-F1: 45.107300 Pixel_PRO: 93.479642 
+2025-11-14 15:11:18,847 - INFO - --------------------------------------------------------------------
+2025-11-14 15:11:18,847 - INFO - [Summary]
+2025-11-14 15:11:18,847 - INFO - visa: value=Sample_CLS_AUROC: 91.334453 Sample_CLS_AP: 92.358307 Sample_CLS_max-F1: 87.465794 Pixel_AUROC: 98.049207 Pixel_AP: 38.918189 Pixel_max-F1: 45.107300 Pixel_PRO: 93.479642 

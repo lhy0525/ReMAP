@@ -1,0 +1,37 @@
+2025-11-13 19:46:32,231 - INFO - [Logger] writing to ./results/few_shot/1/run_3/test_results_20251113-194632.log
+2025-11-13 19:46:32,231 - INFO - [Args] {'clip_download_dir': './download/clip/', 'data_dir': './data', 'dataset': 'visa', 'model': 'ViT-L/14@336px', 'batch_size': 8, 'img_size': 518, 'test_dataset': ['mvtec'], 'weight': './weight/best_maxf1_visa.pt', 'load_strict': False, 'device': 'cuda:0', 'prompt_len': 12, 'fewshot': 1, 'vis': 0, 'vis_dir': './vis', 'alpha': 0.1, 'memory_layers': [6, 12, 18, 24], 'adapter_layers': -1, 'result_dir': './results/few_shot/1/run_3', 'log_file': ''}
+2025-11-13 19:46:32,582 - INFO - --------------------------- mvtec ---------------------------
+2025-11-13 19:46:32,587 - INFO - carpet, ['./data/mvtec/carpet/train/good/027.png']
+2025-11-13 19:49:00,268 - INFO - Category carpet: Sample_CLS_AUROC: 100.000000 Sample_CLS_AP: 100.000000 Sample_CLS_max-F1: 100.000000 Pixel_AUROC: 99.214876 Pixel_AP: 78.776218 Pixel_max-F1: 73.307581 Pixel_PRO: 97.652832 
+2025-11-13 19:49:00,269 - INFO - grid, ['./data/mvtec/grid/train/good/263.png']
+2025-11-13 19:50:35,167 - INFO - Category grid: Sample_CLS_AUROC: 97.493734 Sample_CLS_AP: 99.187076 Sample_CLS_max-F1: 96.363636 Pixel_AUROC: 97.979917 Pixel_AP: 45.824568 Pixel_max-F1: 47.422294 Pixel_PRO: 93.736921 
+2025-11-13 19:50:35,167 - INFO - leather, ['./data/mvtec/leather/train/good/012.png']
+2025-11-13 19:53:06,244 - INFO - Category leather: Sample_CLS_AUROC: 99.966033 Sample_CLS_AP: 99.988312 Sample_CLS_max-F1: 99.459459 Pixel_AUROC: 99.548714 Pixel_AP: 58.558757 Pixel_max-F1: 56.663404 Pixel_PRO: 99.100270 
+2025-11-13 19:53:06,244 - INFO - tile, ['./data/mvtec/tile/train/good/160.png']
+2025-11-13 19:55:48,728 - INFO - Category tile: Sample_CLS_AUROC: 99.855700 Sample_CLS_AP: 99.943799 Sample_CLS_max-F1: 98.823529 Pixel_AUROC: 96.535088 Pixel_AP: 74.969849 Pixel_max-F1: 72.398308 Pixel_PRO: 94.008415 
+2025-11-13 19:55:48,729 - INFO - wood, ['./data/mvtec/wood/train/good/047.png']
+2025-11-13 19:57:33,990 - INFO - Category wood: Sample_CLS_AUROC: 99.824561 Sample_CLS_AP: 99.944900 Sample_CLS_max-F1: 99.173554 Pixel_AUROC: 96.627061 Pixel_AP: 73.231640 Pixel_max-F1: 69.140237 Pixel_PRO: 96.538648 
+2025-11-13 19:57:33,991 - INFO - bottle, ['./data/mvtec/bottle/train/good/050.png']
+2025-11-13 19:59:24,266 - INFO - Category bottle: Sample_CLS_AUROC: 99.126984 Sample_CLS_AP: 99.708564 Sample_CLS_max-F1: 98.437500 Pixel_AUROC: 96.793988 Pixel_AP: 78.453342 Pixel_max-F1: 72.992949 Pixel_PRO: 93.783832 
+2025-11-13 19:59:24,266 - INFO - cable, ['./data/mvtec/cable/train/good/208.png']
+2025-11-13 20:02:35,775 - INFO - Category cable: Sample_CLS_AUROC: 85.101199 Sample_CLS_AP: 90.919050 Sample_CLS_max-F1: 83.695652 Pixel_AUROC: 93.331989 Pixel_AP: 47.797585 Pixel_max-F1: 48.699653 Pixel_PRO: 86.465898 
+2025-11-13 20:02:35,776 - INFO - capsule, ['./data/mvtec/capsule/train/good/099.png']
+2025-11-13 20:05:17,022 - INFO - Category capsule: Sample_CLS_AUROC: 95.971280 Sample_CLS_AP: 99.147094 Sample_CLS_max-F1: 96.330275 Pixel_AUROC: 98.092019 Pixel_AP: 47.637707 Pixel_max-F1: 47.093411 Pixel_PRO: 97.109059 
+2025-11-13 20:05:17,023 - INFO - hazelnut, ['./data/mvtec/hazelnut/train/good/028.png']
+2025-11-13 20:07:36,356 - INFO - Category hazelnut: Sample_CLS_AUROC: 99.750000 Sample_CLS_AP: 99.866810 Sample_CLS_max-F1: 98.571429 Pixel_AUROC: 98.863461 Pixel_AP: 70.149148 Pixel_max-F1: 68.832916 Pixel_PRO: 96.406698 
+2025-11-13 20:07:36,357 - INFO - metal_nut, ['./data/mvtec/metal_nut/train/good/199.png']
+2025-11-13 20:10:26,534 - INFO - Category metal_nut: Sample_CLS_AUROC: 99.951124 Sample_CLS_AP: 99.988561 Sample_CLS_max-F1: 99.465241 Pixel_AUROC: 90.969975 Pixel_AP: 59.375568 Pixel_max-F1: 57.207567 Pixel_PRO: 90.558679 
+2025-11-13 20:10:26,535 - INFO - pill, ['./data/mvtec/pill/train/good/256.png']
+2025-11-13 20:14:00,615 - INFO - Category pill: Sample_CLS_AUROC: 96.590289 Sample_CLS_AP: 99.275197 Sample_CLS_max-F1: 97.902098 Pixel_AUROC: 94.361968 Pixel_AP: 55.961347 Pixel_max-F1: 58.030442 Pixel_PRO: 96.962409 
+2025-11-13 20:14:00,615 - INFO - screw, ['./data/mvtec/screw/train/good/129.png']
+2025-11-13 20:17:12,006 - INFO - Category screw: Sample_CLS_AUROC: 68.989547 Sample_CLS_AP: 85.889743 Sample_CLS_max-F1: 88.973384 Pixel_AUROC: 97.187019 Pixel_AP: 21.155679 Pixel_max-F1: 27.944082 Pixel_PRO: 89.635106 
+2025-11-13 20:17:12,007 - INFO - toothbrush, ['./data/mvtec/toothbrush/train/good/037.png']
+2025-11-13 20:18:00,351 - INFO - Category toothbrush: Sample_CLS_AUROC: 98.888889 Sample_CLS_AP: 99.607843 Sample_CLS_max-F1: 98.305085 Pixel_AUROC: 99.232000 Pixel_AP: 70.625857 Pixel_max-F1: 70.261726 Pixel_PRO: 94.612004 
+2025-11-13 20:18:00,351 - INFO - transistor, ['./data/mvtec/transistor/train/good/055.png']
+2025-11-13 20:20:12,886 - INFO - Category transistor: Sample_CLS_AUROC: 93.333333 Sample_CLS_AP: 93.226499 Sample_CLS_max-F1: 91.358025 Pixel_AUROC: 82.198862 Pixel_AP: 34.873239 Pixel_max-F1: 36.552834 Pixel_PRO: 66.401913 
+2025-11-13 20:20:12,887 - INFO - zipper, ['./data/mvtec/zipper/train/good/165.png']
+2025-11-13 20:23:21,721 - INFO - Category zipper: Sample_CLS_AUROC: 99.080882 Sample_CLS_AP: 99.749680 Sample_CLS_max-F1: 97.540984 Pixel_AUROC: 98.194222 Pixel_AP: 70.640802 Pixel_max-F1: 66.993860 Pixel_PRO: 93.993827 
+2025-11-13 20:23:21,721 - INFO - Average: Sample_CLS_AUROC: 95.594904 Sample_CLS_AP: 97.762875 Sample_CLS_max-F1: 96.293323 Pixel_AUROC: 95.942077 Pixel_AP: 59.202087 Pixel_max-F1: 58.236084 Pixel_PRO: 92.464434 
+2025-11-13 20:23:21,722 - INFO - --------------------------------------------------------------------
+2025-11-13 20:23:21,722 - INFO - [Summary]
+2025-11-13 20:23:21,722 - INFO - mvtec: value=Sample_CLS_AUROC: 95.594904 Sample_CLS_AP: 97.762875 Sample_CLS_max-F1: 96.293323 Pixel_AUROC: 95.942077 Pixel_AP: 59.202087 Pixel_max-F1: 58.236084 Pixel_PRO: 92.464434 
