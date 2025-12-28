@@ -146,7 +146,7 @@ def main():
     parser.add_argument('--prompt_len', type=int, default=12, help='prompt length')
     # 评测相关
     parser.add_argument('--fewshot', type=int, default=0, help='>0 时启用 few-shot memorybank')
-    parser.add_argument('--vis', type=int, default=1, help='可视化开关；0 仅跑指标')
+    parser.add_argument('--vis', type=int, default=0, help='可视化开关；0 仅跑指标')
     parser.add_argument('--vis_dir', type=str, default='./vis', help='可视化输出目录')
     # （可选）memorybank 融合时会用到 alpha
     parser.add_argument('--alpha', type=float, default=0.5, help='memorybank 融合权重')
