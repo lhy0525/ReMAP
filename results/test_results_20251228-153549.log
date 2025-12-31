@@ -1,0 +1,22 @@
+2025-12-28 15:35:49,487 - INFO - [Logger] writing to ./results/test_results_20251228-153549.log
+2025-12-28 15:35:49,488 - INFO - [Args] {'clip_download_dir': './download/clip/', 'data_dir': './data', 'dataset': 'visa', 'model': 'ViT-L/14@336px', 'batch_size': 8, 'img_size': 518, 'test_dataset': ['mvtec'], 'weight': './weight/best_maxf1_visa.pt', 'load_strict': False, 'device': 'cuda:0', 'prompt_len': 8, 'fewshot': 0, 'vis': 0, 'vis_dir': './vis', 'alpha': 0.5, 'memory_layers': [6, 12, 18, 24], 'adapter_layers': -1, 'result_dir': './results', 'log_file': ''}
+2025-12-28 15:35:50,124 - INFO - --------------------------- mvtec ---------------------------
+2025-12-28 15:38:11,288 - INFO - Category carpet: Sample_CLS_AUROC: 100.000000 Sample_CLS_AP: 100.000000 Sample_CLS_max-F1: 100.000000 Pixel_AUROC: 99.492119 Pixel_AP: 82.047082 Pixel_max-F1: 73.279499 Pixel_PRO: 97.301547 
+2025-12-28 15:39:34,180 - INFO - Category grid: Sample_CLS_AUROC: 97.326650 Sample_CLS_AP: 99.037804 Sample_CLS_max-F1: 95.000000 Pixel_AUROC: 97.352064 Pixel_AP: 31.850830 Pixel_max-F1: 38.037220 Pixel_PRO: 89.769563 
+2025-12-28 15:41:53,727 - INFO - Category leather: Sample_CLS_AUROC: 99.932065 Sample_CLS_AP: 99.976498 Sample_CLS_max-F1: 99.459459 Pixel_AUROC: 99.507689 Pixel_AP: 53.258422 Pixel_max-F1: 54.410984 Pixel_PRO: 98.070064 
+2025-12-28 15:44:18,332 - INFO - Category tile: Sample_CLS_AUROC: 98.232323 Sample_CLS_AP: 99.454011 Sample_CLS_max-F1: 97.619048 Pixel_AUROC: 94.878470 Pixel_AP: 78.814212 Pixel_max-F1: 72.231450 Pixel_PRO: 91.607030 
+2025-12-28 15:45:55,079 - INFO - Category wood: Sample_CLS_AUROC: 95.438596 Sample_CLS_AP: 98.678404 Sample_CLS_max-F1: 94.214876 Pixel_AUROC: 96.504786 Pixel_AP: 59.006723 Pixel_max-F1: 56.793080 Pixel_PRO: 89.623067 
+2025-12-28 15:47:39,829 - INFO - Category bottle: Sample_CLS_AUROC: 95.238095 Sample_CLS_AP: 98.544771 Sample_CLS_max-F1: 93.548387 Pixel_AUROC: 92.612255 Pixel_AP: 63.776166 Pixel_max-F1: 60.275248 Pixel_PRO: 86.378152 
+2025-12-28 15:50:48,481 - INFO - Category cable: Sample_CLS_AUROC: 80.097451 Sample_CLS_AP: 87.118561 Sample_CLS_max-F1: 80.952381 Pixel_AUROC: 78.577334 Pixel_AP: 16.354348 Pixel_max-F1: 23.359212 Pixel_PRO: 63.952583 
+2025-12-28 15:53:27,666 - INFO - Category capsule: Sample_CLS_AUROC: 92.700439 Sample_CLS_AP: 98.428464 Sample_CLS_max-F1: 94.009217 Pixel_AUROC: 96.151350 Pixel_AP: 26.058481 Pixel_max-F1: 29.898165 Pixel_PRO: 92.619703 
+2025-12-28 15:55:43,087 - INFO - Category hazelnut: Sample_CLS_AUROC: 96.500000 Sample_CLS_AP: 98.108652 Sample_CLS_max-F1: 93.525180 Pixel_AUROC: 95.275164 Pixel_AP: 26.549556 Pixel_max-F1: 32.492428 Pixel_PRO: 82.305481 
+2025-12-28 15:58:35,398 - INFO - Category metal_nut: Sample_CLS_AUROC: 94.574780 Sample_CLS_AP: 98.584870 Sample_CLS_max-F1: 95.336788 Pixel_AUROC: 82.290165 Pixel_AP: 35.803836 Pixel_max-F1: 38.792048 Pixel_PRO: 80.082073 
+2025-12-28 16:02:02,222 - INFO - Category pill: Sample_CLS_AUROC: 82.842335 Sample_CLS_AP: 96.641648 Sample_CLS_max-F1: 91.558442 Pixel_AUROC: 82.593000 Pixel_AP: 26.109135 Pixel_max-F1: 30.717862 Pixel_PRO: 88.169522 
+2025-12-28 16:05:06,904 - INFO - Category screw: Sample_CLS_AUROC: 70.096331 Sample_CLS_AP: 87.205848 Sample_CLS_max-F1: 85.304659 Pixel_AUROC: 96.217246 Pixel_AP: 6.264679 Pixel_max-F1: 12.839681 Pixel_PRO: 85.136774 
+2025-12-28 16:05:50,907 - INFO - Category toothbrush: Sample_CLS_AUROC: 87.222222 Sample_CLS_AP: 95.142765 Sample_CLS_max-F1: 89.230769 Pixel_AUROC: 96.489934 Pixel_AP: 42.050124 Pixel_max-F1: 43.939931 Pixel_PRO: 89.301457 
+2025-12-28 16:07:59,453 - INFO - Category transistor: Sample_CLS_AUROC: 82.458333 Sample_CLS_AP: 85.271621 Sample_CLS_max-F1: 78.873239 Pixel_AUROC: 69.592745 Pixel_AP: 9.500905 Pixel_max-F1: 16.097708 Pixel_PRO: 52.062184 
+2025-12-28 16:11:03,838 - INFO - Category zipper: Sample_CLS_AUROC: 98.844538 Sample_CLS_AP: 99.692742 Sample_CLS_max-F1: 97.540984 Pixel_AUROC: 96.958961 Pixel_AP: 57.605687 Pixel_max-F1: 54.755800 Pixel_PRO: 87.199311 
+2025-12-28 16:11:03,838 - INFO - Average: Sample_CLS_AUROC: 91.533611 Sample_CLS_AP: 96.125777 Sample_CLS_max-F1: 92.411562 Pixel_AUROC: 91.632885 Pixel_AP: 41.003346 Pixel_max-F1: 42.528021 Pixel_PRO: 84.905234 
+2025-12-28 16:11:03,839 - INFO - --------------------------------------------------------------------
+2025-12-28 16:11:03,839 - INFO - [Summary]
+2025-12-28 16:11:03,839 - INFO - mvtec: value=Sample_CLS_AUROC: 91.533611 Sample_CLS_AP: 96.125777 Sample_CLS_max-F1: 92.411562 Pixel_AUROC: 91.632885 Pixel_AP: 41.003346 Pixel_max-F1: 42.528021 Pixel_PRO: 84.905234 
