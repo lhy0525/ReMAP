@@ -4,10 +4,6 @@ Official implementation of **"ReMAP-AD: Relation-guided Multi-scale Adaptive Pro
 
 ReMAP-AD is a CLIP-based framework for zero-shot and few-shot anomaly classification and segmentation. It keeps the CLIP backbone frozen and learns lightweight prompting/adaptation modules to convert local visual evidence into instance-adaptive prompts for fine-grained anomaly localization.
 
-## News
-
-- Code released for ReMAP-AD.
-- Zero-shot training/evaluation and few-shot memory-bank inference are included.
 
 ## Overview
 
